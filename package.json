@@ -1,0 +1,33 @@
+{
+  "name": "layman",
+  "version": "0.0.0",
+  "description": "Streaming JSON from S3, map to CSV, then streaming back to S3",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_module/.bin/mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hden/layman.git"
+  },
+  "keywords": [
+    "s3",
+    "json",
+    "csv",
+    "tsv"
+  ],
+  "author": "Hao-kang Den <haokang.den@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hden/layman/issues"
+  },
+  "homepage": "https://github.com/hden/layman",
+  "dependencies": {
+    "commander": "~2.1.0",
+    "penman": "~0.1.2",
+    "knox": "~0.8.8",
+    "underscore": "~1.5.2",
+    "q": "~1.0.0",
+    "mkdirp": "~0.3.5"
+  }
+}
