@@ -1,0 +1,6 @@
+#!/usr/bin/env node
+
+'use strict';
+
+require('coffee-script');
+require(__dirname + '/../src/layman');
